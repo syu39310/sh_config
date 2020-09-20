@@ -40,8 +40,10 @@ setopt auto_pushd
 setopt pushd_ignore_dups
 
 # command alias
+# ls 
 alias ls='ls -FG'
 alias ll='ls -alFG'
 alias la='ls -aFG'
-alias his='history'
-alias hisa='history -E 1'
+# history
+alias hist='history'
+alias hista='history -E 1'
